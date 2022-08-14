@@ -17,23 +17,25 @@ struct PostDetailView: View {
     var body: some View {
         ScrollView() {
             VStack(alignment: .leading) {
-                HStack(alignment: .center) {
-                    Image(systemName: "person.circle")
-                        .resizable()
-                        .foregroundColor(Color.gray)
-                        .frame(width: 30, height: 30)
-                        .padding(.all, 0)
-                    VStack(alignment: .leading) {
-                        Text("\(postDetailVM.user.name)")
-                            .font(.subheadline)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.black)
-                            .multilineTextAlignment(.leading)
-
-                        Text("\(postDetailVM.user.company.name) | \(postDetailVM.user.company.catchPhrase)")
-                            .font(.caption2)
+                NavigationLink(destination: UserDetailView(userId: postDetailVM.user.id, userName: postDetailVM.user.name)) {
+                    HStack(alignment: .center) {
+                        Image(systemName: "person.circle")
+                            .resizable()
                             .foregroundColor(Color.gray)
-                            .multilineTextAlignment(.leading)
+                            .frame(width: 30, height: 30)
+                            .padding(.all, 0)
+                        VStack(alignment: .leading) {
+                            Text("\(postDetailVM.user.name)")
+                                .font(.subheadline)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.black)
+                                .multilineTextAlignment(.leading)
+
+                            Text("\(postDetailVM.user.company.name) | \(postDetailVM.user.company.catchPhrase)")
+                                .font(.caption2)
+                                .foregroundColor(Color.gray)
+                                .multilineTextAlignment(.leading)
+                        }
                     }
                 }
 

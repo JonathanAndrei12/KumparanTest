@@ -48,6 +48,8 @@ struct UserDetailView: View {
                 UserDetailTabBar(screen: $screen)
                 
                 if screen == 0 {
+                    UserAlbumsGalleryView(albums: userDetailVM.albums, photos: userDetailVM.photos, user: userDetailVM.user)
+                } else if screen == 1 {
                     UserBioView(user: userDetailVM.user)
                 }
             }
@@ -57,6 +59,8 @@ struct UserDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             userDetailVM.getUserData(userId: userId)
+            userDetailVM.fetchUserAlbums(userId: userId)
+            userDetailVM.fetchUserPhotos()
         }
     }
 }

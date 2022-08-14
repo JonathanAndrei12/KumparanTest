@@ -15,7 +15,8 @@ struct Kumparan_RecruitmentApp: App {
         WindowGroup {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-            UserDetailView(userId: 1, userName: "Jonathan")
+//            UserDetailView(userId: 1, userName: "Jonathan")
+            TimelineView()
                 .preferredColorScheme(.light)
         }
     }

@@ -17,10 +17,10 @@ struct UserDetailTabBar: View {
             
             HStack {
                 Button(action: {
-                    self.screen = 1
+                    self.screen = 0
                 }) {
                     VStack {
-                        if self.screen == 1 {
+                        if self.screen == 0 {
                             Image(systemName: "square.grid.2x2")
                                 .resizable()
                                 .font(Font.title.weight(.bold))
@@ -37,10 +37,10 @@ struct UserDetailTabBar: View {
                 }
                 
                 Button(action: {
-                    self.screen = 0
+                    self.screen = 1
                 }) {
                     VStack {
-                        if self.screen == 0 {
+                        if self.screen == 1 {
                             Image(systemName: "person")
                                 .resizable()
                                 .font(Font.title.weight(.bold))

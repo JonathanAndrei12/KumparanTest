@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1CE2CA28A6CA000080D27B /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CE2C928A6CA000080D27B /* PostDetailView.swift */; };
+		DE1CE2CC28A6CAF70080D27B /* PostDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CE2CB28A6CAF70080D27B /* PostDetailViewModel.swift */; };
+		DE1CE2CE28A6E0800080D27B /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CE2CD28A6E0800080D27B /* Comment.swift */; };
+		DE1CE2D028A6E4790080D27B /* CommentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CE2CF28A6E4790080D27B /* CommentCard.swift */; };
+		DE6AA1EE28A69A630068E24C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6AA1ED28A69A630068E24C /* User.swift */; };
+		DE6AA1F128A6A9090068E24C /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6AA1F028A6A9090068E24C /* PostCard.swift */; };
+		DE70705828A81CD500B7E7EB /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70705728A81CD500B7E7EB /* UserDetailView.swift */; };
+		DE70705A28A81E9200B7E7EB /* UserDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70705928A81E9200B7E7EB /* UserDetailViewModel.swift */; };
+		DE70705C28A82B8E00B7E7EB /* UserBioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70705B28A82B8E00B7E7EB /* UserBioView.swift */; };
+		DE70705F28A8323700B7E7EB /* UserDetailTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE70705E28A8323700B7E7EB /* UserDetailTabBar.swift */; };
 		DEFD3A2628A4EF1700ACC343 /* Kumparan_RecruitmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A2528A4EF1700ACC343 /* Kumparan_RecruitmentApp.swift */; };
 		DEFD3A2828A4EF1700ACC343 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A2728A4EF1700ACC343 /* ContentView.swift */; };
 		DEFD3A2A28A4EF1A00ACC343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEFD3A2928A4EF1A00ACC343 /* Assets.xcassets */; };
@@ -16,6 +26,9 @@
 		DEFD3A3C28A4EF1A00ACC343 /* Kumparan_RecruitmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A3B28A4EF1A00ACC343 /* Kumparan_RecruitmentTests.swift */; };
 		DEFD3A4628A4EF1A00ACC343 /* Kumparan_RecruitmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A4528A4EF1A00ACC343 /* Kumparan_RecruitmentUITests.swift */; };
 		DEFD3A4828A4EF1A00ACC343 /* Kumparan_RecruitmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A4728A4EF1A00ACC343 /* Kumparan_RecruitmentUITestsLaunchTests.swift */; };
+		DEFD3A5828A4EF6A00ACC343 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A5728A4EF6A00ACC343 /* TimelineView.swift */; };
+		DEFD3A5A28A4EF9C00ACC343 /* TImelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A5928A4EF9C00ACC343 /* TImelineViewModel.swift */; };
+		DEFD3A5C28A4EFF800ACC343 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFD3A5B28A4EFF800ACC343 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE1CE2C928A6CA000080D27B /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		DE1CE2CB28A6CAF70080D27B /* PostDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailViewModel.swift; sourceTree = "<group>"; };
+		DE1CE2CD28A6E0800080D27B /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		DE1CE2CF28A6E4790080D27B /* CommentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCard.swift; sourceTree = "<group>"; };
+		DE6AA1ED28A69A630068E24C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DE6AA1F028A6A9090068E24C /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		DE70705728A81CD500B7E7EB /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		DE70705928A81E9200B7E7EB /* UserDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailViewModel.swift; sourceTree = "<group>"; };
+		DE70705B28A82B8E00B7E7EB /* UserBioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserBioView.swift; sourceTree = "<group>"; };
+		DE70705E28A8323700B7E7EB /* UserDetailTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailTabBar.swift; sourceTree = "<group>"; };
 		DEFD3A2228A4EF1700ACC343 /* Kumparan Recruitment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kumparan Recruitment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFD3A2528A4EF1700ACC343 /* Kumparan_RecruitmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kumparan_RecruitmentApp.swift; sourceTree = "<group>"; };
 		DEFD3A2728A4EF1700ACC343 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +71,9 @@
 		DEFD3A4128A4EF1A00ACC343 /* Kumparan RecruitmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kumparan RecruitmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFD3A4528A4EF1A00ACC343 /* Kumparan_RecruitmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kumparan_RecruitmentUITests.swift; sourceTree = "<group>"; };
 		DEFD3A4728A4EF1A00ACC343 /* Kumparan_RecruitmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kumparan_RecruitmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DEFD3A5728A4EF6A00ACC343 /* TimelineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		DEFD3A5928A4EF9C00ACC343 /* TImelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImelineViewModel.swift; sourceTree = "<group>"; };
+		DEFD3A5B28A4EFF800ACC343 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +101,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE6AA1EF28A69D430068E24C /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				DE6AA1F028A6A9090068E24C /* PostCard.swift */,
+				DE1CE2CF28A6E4790080D27B /* CommentCard.swift */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		DE70705D28A82BA900B7E7EB /* UserDetailViewAsset */ = {
+			isa = PBXGroup;
+			children = (
+				DE70705B28A82B8E00B7E7EB /* UserBioView.swift */,
+				DE70705E28A8323700B7E7EB /* UserDetailTabBar.swift */,
+			);
+			path = UserDetailViewAsset;
+			sourceTree = "<group>";
+		};
 		DEFD3A1928A4EF1700ACC343 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +142,9 @@
 		DEFD3A2428A4EF1700ACC343 /* Kumparan Recruitment */ = {
 			isa = PBXGroup;
 			children = (
+				DEFD3A5628A4EF4300ACC343 /* Model */,
+				DEFD3A5528A4EF3C00ACC343 /* ViewModel */,
+				DEFD3A5428A4EF2800ACC343 /* View */,
 				DEFD3A2528A4EF1700ACC343 /* Kumparan_RecruitmentApp.swift */,
 				DEFD3A2728A4EF1700ACC343 /* ContentView.swift */,
 				DEFD3A2928A4EF1A00ACC343 /* Assets.xcassets */,
@@ -131,6 +178,38 @@
 				DEFD3A4728A4EF1A00ACC343 /* Kumparan_RecruitmentUITestsLaunchTests.swift */,
 			);
 			path = "Kumparan RecruitmentUITests";
+			sourceTree = "<group>";
+		};
+		DEFD3A5428A4EF2800ACC343 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD3A5728A4EF6A00ACC343 /* TimelineView.swift */,
+				DE1CE2C928A6CA000080D27B /* PostDetailView.swift */,
+				DE70705728A81CD500B7E7EB /* UserDetailView.swift */,
+				DE70705D28A82BA900B7E7EB /* UserDetailViewAsset */,
+				DE6AA1EF28A69D430068E24C /* Asset */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DEFD3A5528A4EF3C00ACC343 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD3A5928A4EF9C00ACC343 /* TImelineViewModel.swift */,
+				DE1CE2CB28A6CAF70080D27B /* PostDetailViewModel.swift */,
+				DE70705928A81E9200B7E7EB /* UserDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DEFD3A5628A4EF4300ACC343 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DEFD3A5B28A4EFF800ACC343 /* Post.swift */,
+				DE6AA1ED28A69A630068E24C /* User.swift */,
+				DE1CE2CD28A6E0800080D27B /* Comment.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +342,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE70705F28A8323700B7E7EB /* UserDetailTabBar.swift in Sources */,
+				DE70705C28A82B8E00B7E7EB /* UserBioView.swift in Sources */,
+				DE1CE2D028A6E4790080D27B /* CommentCard.swift in Sources */,
 				DEFD3A2F28A4EF1A00ACC343 /* Persistence.swift in Sources */,
+				DE1CE2CA28A6CA000080D27B /* PostDetailView.swift in Sources */,
 				DEFD3A2828A4EF1700ACC343 /* ContentView.swift in Sources */,
+				DE70705828A81CD500B7E7EB /* UserDetailView.swift in Sources */,
 				DEFD3A2628A4EF1700ACC343 /* Kumparan_RecruitmentApp.swift in Sources */,
+				DEFD3A5828A4EF6A00ACC343 /* TimelineView.swift in Sources */,
+				DE1CE2CC28A6CAF70080D27B /* PostDetailViewModel.swift in Sources */,
+				DE6AA1F128A6A9090068E24C /* PostCard.swift in Sources */,
+				DE1CE2CE28A6E0800080D27B /* Comment.swift in Sources */,
+				DE6AA1EE28A69A630068E24C /* User.swift in Sources */,
 				DEFD3A3228A4EF1A00ACC343 /* Kumparan_Recruitment.xcdatamodeld in Sources */,
+				DE70705A28A81E9200B7E7EB /* UserDetailViewModel.swift in Sources */,
+				DEFD3A5C28A4EFF800ACC343 /* Post.swift in Sources */,
+				DEFD3A5A28A4EF9C00ACC343 /* TImelineViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

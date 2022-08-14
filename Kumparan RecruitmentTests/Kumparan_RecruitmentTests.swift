@@ -9,6 +9,10 @@ import XCTest
 @testable import Kumparan_Recruitment
 
 class Kumparan_RecruitmentTests: XCTestCase {
+    
+//    private var timelineVM = TimelineViewModel()
+//    private var postDetailVM = PostDetailViewModel()
+//    private var userDetailVM = UserDetailViewModel()
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
